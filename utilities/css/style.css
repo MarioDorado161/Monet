@@ -8485,3 +8485,91 @@ body {
   padding: 8px;
   position: relative;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+header {
+  padding: 1rem;
+  background: #43C6E2;
+  color: white;
+  text-align: center;
+}
+
+#searchInput {
+  padding: 0.5rem;
+  width: 80%;
+  max-width: 400px;
+  margin-top: 1rem;
+}
+
+.layout {
+  display: flex;
+  height: calc(100vh - 120px);
+
+}
+
+.sidebar {
+  width: 250px;
+  background: #f5f4f4;
+  padding: 2rem;
+  overflow-y: auto;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar .category {
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 1rem;
+  display: none;
+}
+
+.sidebar ul.visible {
+  display: block;
+}
+
+.sidebar li {
+  margin: 0.5rem 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #4c30ff;
+}
+
+.content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.article {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+}
