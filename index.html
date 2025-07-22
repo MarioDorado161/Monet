@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+    <head>
+
+    <link href="/utilities/css/style.css" media="screen" rel="stylesheet" />
+
+    <meta charset="utf-8" />
+    <meta http-equiv="x-dns-prefetch-control" content="on" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <meta name="csrf-param" content="authenticity_token" />
+    <meta
+      name="csrf-token"
+      content="8teUNqSYlW3neni2wEvyCK8HcNSVcm1GByRiqt+FHUbK2s5zZ8QN+vGu05ERsF+o55vNGu7Wyn6mSFttQNgSFg=="
+    />
+    <meta property="og:title" content="Dtr3s Monet" />
+    <title>Dtr3s Monet</title>
+
+
+
+      <!--
+    <meta
+      name="description"
+      content="Dtr3s Monet"
+    />
+    <meta
+      property="og:description"
+      content="Dtr3s Monet"
+    />
+    <meta
+      name="keywords"
+      content="Dtr3s Monet"
+    />
+    <meta
+      property="og:image"
+      content="https://dy53q6sor7j4i.cloudfront.net/images/karmeleon2/opengraph.jpg"
+    />
+    <meta property="og:site_name" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="fb:app_id" content="359034750804645" />
+    <link rel="canonical" href="" />
+    <meta property="og:url" content="" />
+    -->
+    <link
+      rel="alternate"
+      type="application/atom+xml"
+      title="Karma Blog"
+      href=""
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href=""
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      type="image/png"
+      href=""
+    />
+    <meta
+      name="msapplication-TileImage"
+      content=""
+    />
+    <meta name="msapplication-TileColor" content="#f9461c" />
+
+
+
+    
+    <script src="//cdn.optimizely.com/js/548200593.js"></script>
+    <script src="./utilities/js/script.js"></script>
+    <!--[if lt IE 9
+      ]><script src="https://dy53q6sor7j4i.cloudfront.net/assets/html5shiv/dist/html5shiv-d3d35aa8c5c7074d41080b04f1324ad142a05add2f6e1e2ac7028b1eb3bece66.js"></script
+    ><![endif]-->
+    
+    
+    
+    <!--[if lt IE 9]>
+      <script src="https://dy53q6sor7j4i.cloudfront.net/assets/es5-shim.min-1785235b13c15856e7ed74d729b1a803d01157ac45507931a32d1789d827b518.js"></script>
+      <script src="https://dy53q6sor7j4i.cloudfront.net/assets/es5-sham.min-ea8123e86dc6d3463194080720478e6dc813c168041f11fd292c6cea2cbbe60c.js"></script>
+    <![endif]-->
+  <!---->
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .hero-iframe-container {
+      width: 100%;
+
+      min-height: 800px;
+      overflow: hidden;
+    }
+    .hero-iframe-container iframe {
+      border: none;
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+  margin-top: 100px;
+  font-family: "Lexia Lg", sans-serif; /* <-- aquí aplicas tu fuente */
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+    text-decoration: none; /
+}
+
+footer a:hover {
+  color: #00B2E2;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #0E2F3C;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #00B2E2;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+
+  </style>
+  </head>
+
+
+  
+  <body class="home">
+    <noscript
+      ><iframe
+        height="0"
+        src="https://www.googletagmanager.com/ns.html?id=GTM-587LC7"
+        style="display: none; visibility: hidden"
+        width="0"
+      ></iframe
+    ></noscript>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "//www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-587LC7");
+    </script>
+    <script>
+      var experiments = [];
+      if (window["optimizely"]) {
+        $.each(
+          window["optimizely"].data.state.activeExperiments,
+          function (idx, experimentId) {
+            experiments.push(
+              window["optimizely"].data.state.variationNamesMap[experimentId]
+            );
+          }
+        );
+      }
+
+      function abTesting(experimentName) {
+        return $.inArray(experimentName, experiments) > -1;
+      }
+
+      document.cookie = "experiments=" + experiments.join("|") + ";";
+    </script>
+
+
+
+
+
+
+ 
+
+
+    <div
+      class="k-new-navbar"
+      data-behavior="LoggedInNavbar ToggleClassWhenScrolling "
+      data-login-details=""
+      data-scroll-class="k-new-navbar--scrolled"
+      data-scroll-class-behavior="add"
+      data-scroll-offset="5"
+    >
+      <div class="k-new-navbar-left">
+        <a class="k-new-navbar-logo" href="https://yourkarma.com"></a>
+      </div>
+      <div class="k-new-navbar-right">
+        <div class="k-new-navbar-item-container">
+          <a class="k-new-navbar-item-store" href="https://yourkarma.com/store"
+            >Producto</a
+          >
+        </div>
+        <div class="k-new-navbar-item-container">
+          <a
+            class="k-new-navbar-item-login"
+            data-logged-in="false"
+            href="https://login.yourkarma.com"
+            >Login</a
+          >
+        </div>
+        <div
+          class="k-new-navbar-item-container k-new-navbar-item-container--hidden"
+        >
+          <a
+            class="k-new-navbar-item-login"
+            data-logged-in="true"
+            href="https://yourkarma.com/dashboard"
+            >Acceso</a
+          >
+          <style>
+  @media (max-width: 768px) {
+    .k-new-navbar-item-login {
+      display: none;
+    }
+  }
+</style>
+        </div>
+        <div
+          class="k-new-navbar-item-container k-new-navbar-item-container--last"
+        >
+          <a
+            class="k-new-navbar-item-menu"
+            data-behavior="ExpandNewNavbar"
+            href="#"
+            >Menu</a
+          >
+          <div class="k-new-navbar-item-stack" data-behavior="ExpandNewNavbar">
+            <div class="k-new-navbar-item-stack-top"></div>
+            <div class="k-new-navbar-item-stack-middle"></div>
+            <div class="k-new-navbar-item-stack-bottom"></div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      
+      <div class="k-new-navbar-side-bar">
+        <a
+          class="k-new-navbar-side-bar-item"
+          href="https://www.dtr3s.es/s"
+          >Documentacion</a
+        ><a
+          class="k-new-navbar-side-bar-item"
+          href="https://www.dtr3s.es/"
+          >Proyectos</a
+        ><a class="k-new-navbar-side-bar-item" href="https://www.dtr3s.es/"
+          >A. Digital</a
+        >
+        <a class="k-new-navbar-side-bar-item" href="https://www.dtr3s.es/"
+          >Mantenimiento</a
+        ><a
+          class="k-new-navbar-side-bar-item"
+          href="https://www.dtr3s.es/"
+          >Sobre Dtr3s</a
+        ><a class="k-new-navbar-side-bar-item" href="https://www.dtr3s.es/"
+          >Software</a
+        >
+        <div class="k-new-navbar-item-container--hidden">
+          <h3
+            class="k-header--xx-small k-spacing-top--x-large k-spacing-bottom--base k-color--blue"
+          >
+            My Account
+          </h3>
+          <a
+            class="k-new-navbar-side-bar-item"
+            data-logged-in="true"
+            href="https://www.dtr3s.es/"
+            >Sign Out</a
+          >
+        </div>
+        <h3
+          class="k-header--xx-small k-spacing-top--x-large k-spacing-bottom--base k-color--blue"
+        >
+          Get Support
+        </h3>
+        <a class="k-new-navbar-side-bar-item" href="https://www.dtr3s.es/"
+          >Centro de Ayuda</a
+        ><a
+          class="k-new-navbar-side-bar-item"
+          href="https://www.dtr3s.es/"
+          >Contacto</a
+        ><a
+          class="k-new-navbar-side-bar-item"
+          href="https://www.dtr3s.es/"
+          >Tecnicos</a
+        >
+        <a
+          class="k-new-navbar-side-bar-item k-new-navbar-side-bar-item-legal"
+          href="https://www.dtr3s.es/"
+          >Privacidad</a
+        ><a
+          class="k-new-navbar-side-bar-item k-new-navbar-side-bar-item-legal"
+          href="https://www.dtr3s.es/"
+          >Terminos</a
+        >
+      </div>
+    </div>
+
+
+
+
+<style>
+  @media (min-width: 992px) {
+  .w-hero-container .col-sm-8 p.k-header {
+    max-width: 500px; /* o el ancho que prefieras */
+    /* opcional para centrar el texto en su contenedor */
+    margin-left: 0; 
+    margin-right: auto;
+  }
+}
+</style>
+
+
+    <main class="k-main">
+      <section class="w-hero">
+        <div class="container w-hero-container">
+          <div class="row">
+            <div class="col-sm-8">
+              <h1 class="k-header--x-large k-color--marine" >
+                 Control total del negocio, facil y seguro.
+              </h1>
+              <p class="k-header k-color--blue k-spacing-bottom--x-large">
+                Monet te ayuda a gestionar tu negocio desde cualquier lugar, 
+                con herramientas que simplifican tu trabajo y protegen tus datos.
+              </p>
+         <a
+            class="k-button--link k-spacing-right--large k-spacing-bottom--large k-button--mobile-full-width"
+            href="https://www.dtr3s.es/"
+            >Como Funciona</a
+          ><a
+            class="k-button--blue k-button--mobile-full-width"
+            href="https://www.dtr3s.es/"
+            >Comprar</a
+          >
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+<iframe
+  id="guiaFrame"
+  src="./guia.html"
+  style="width: 100%; border: none; height: 100vh;"
+  scrolling="no"
+  onload="resizeIframe(this)">
+</iframe>
+
+
+<script>
+  function resizeIframe(iframe) {
+    iframe.contentWindow.postMessage('getHeight', '*');
+  }
+
+  window.addEventListener("message", function (event) {
+    if (event.data && event.data.type === "setHeight") {
+      document.getElementById("guiaFrame").style.height = event.data.height + "px";
+    }
+  });
+</script>
+
+
+
+
+
+<!-- 
+      <div
+        data-react-class="Website.VideoWall"
+        data-react-props='{
+          "videos":[
+          {
+            "quote":"Tutotial funciones basicas",
+            "name":"Monet",
+            "duration":"",
+            "previewMp4Url":"https://dy53q6sor7j4i.cloudfront.net/assets/Amanda-Hoffman-Loop-ce480e4be86dfafeb067751eeda07a4e228df6620ed52e8b395d10af5cc53b1a.mp4",
+            "youtubeVideoId":"C72Utg6xnLU",
+            "posterUrl":"https://dy53q6sor7j4i.cloudfront.net/assets/Amanda-Hoffman-01cbb2b6ade6d7f9e7e1f0f876147008473caf03d8f873e56e76cacee3781bcb.jpg"
+          },
+          {
+            "quote":"Tutotial funciones basicas",
+            "name":"Monet",
+            "duration":null,
+            "previewMp4Url":"https://dy53q6sor7j4i.cloudfront.net/assets/Carey-Demir-Loop-19dfe090426391684a9fcb1ddef2725bf0d8bc366de35ccd9dcc47f2a0f86ff6.mp4",
+            "youtubeVideoId":"RlxaVvkXiTA",
+            "posterUrl":"https://dy53q6sor7j4i.cloudfront.net/assets/Carey-Demir-518de7afac1d280a8bceb1c532f85c538d6671e8ef81c7dd809e73995d8ddd8b.jpg"
+          },
+          {
+            "quote":"Tutotial funciones basicas",
+            "name":"Monet",
+            "duration":null,
+            "previewMp4Url":"https://dy53q6sor7j4i.cloudfront.net/assets/Charlie-Connor-Loop-79b98cabe4adc34a5a3059077f356f71e49b2b3ceb73cdb79ea239e5894381cc.mp4",
+            "youtubeVideoId":"KntAbF8NlH4","posterUrl":"https://dy53q6sor7j4i.cloudfront.net/assets/Charlie-Connor-05e58f882ddd3c2eaff11880f4fd0e0e73888624369754e3d1d2465cc446115e.jpg"
+          },
+          {
+            "quote":"Tutotial funciones basicas",
+            "name":"Monet",
+            "duration":null,
+            "previewMp4Url":"https://dy53q6sor7j4i.cloudfront.net/assets/MaricrisG-Loop-3d53d0ead6e137fdee81ad19c8e8fd194b54e8acaf78fde8fc8e77d21e7d8d1f.mp4",
+            "youtubeVideoId":"8T3enAEjobM",
+            "posterUrl":"https://dy53q6sor7j4i.cloudfront.net/assets/MaricrisG-02c96b8ac679cdf9ce5f1954d32bfdb6ca1f0b62aff130bbbd8345915d08056c.jpg"
+          },
+          {
+            "quote":"Tutotial funciones basicas",
+            "name":"Monet",
+            "duration":null,
+            "previewMp4Url":"https://dy53q6sor7j4i.cloudfront.net/assets/Jacob-Stone-Loop-d2c28b58e72a19d1eae5fe15d6274af247006ac4f5c1ebed89c921347a645cc5.mp4",
+            "youtubeVideoId":"ArTTFC8tZZ8",
+            "posterUrl":"https://dy53q6sor7j4i.cloudfront.net/assets/Jacob-Stone-daf01ee0fa8e772ec597489b3ec87d8aacb0e1637309020e46cfe5d6af2a9173.jpg"
+          },
+          {
+            "quote":"Tutotial funciones basicas",
+            "name":"Monet",
+            "duration":null,
+            "previewMp4Url":"https://dy53q6sor7j4i.cloudfront.net/assets/Jenn-Vargas-Loop-3e1fb910a5556cd9ae023b29c90736f573fc174aef37f8fae67328ac1c1e2d9d.mp4",
+            "youtubeVideoId":"ygoxIgrWcPY",
+            "posterUrl":"https://dy53q6sor7j4i.cloudfront.net/assets/Jenn-Vargas-7ae0be4304eaf86300bfd1ee699ca38331481f24d5eb78b0d6e28665dd04de0d.jpg"
+          },
+          {
+            "quote":"Tutotial funciones basicas",
+            "name":"Monet",
+            "duration":null,
+            "previewMp4Url":"https://dy53q6sor7j4i.cloudfront.net/assets/Pablo-Defendini-Loop-b73825db45a938d894ac6b929dbe37b12de8829b4a9752782776cd36fdce71d3.mp4",
+            "youtubeVideoId":"1HdCEpEHq80",
+            "posterUrl":"https://dy53q6sor7j4i.cloudfront.net/assets/Pablo-Defendini-eba3e8b26cdc7e2480225c12c828b4d4af8df7dc658479ad68234be2f7ed99ec.jpg"
+          },
+          {
+            "quote":"Tutotial funciones basicas",
+            "name":"Monet",
+            "duration":null,
+            "previewMp4Url":"https://dy53q6sor7j4i.cloudfront.net/assets/Tyrone-Shawn-Loop-46d4b23dd23d52340b26d7c6bde719386865018121061684e9dc1d3038b5c523.mp4",
+            "youtubeVideoId":"f7oiNiZd9_w",
+            "posterUrl":"https://dy53q6sor7j4i.cloudfront.net/assets/Tyrone-Shawn-1869cb06bc1398d2d2b0688947dd179d9899387686fb6e83518ba79e1620345d.jpg"
+          },
+          {
+            "quote":"Tutotial funciones basicas",
+            "name":"Monet",
+            "duration":null,
+            "previewMp4Url":"https://dy53q6sor7j4i.cloudfront.net/assets/Mollie-Chen-Loop-d59276400b025d90663bacb6a2e339736ec2325979fa2a0b01752c8b3186482b.mp4",
+            "youtubeVideoId":"IUDifjeT5ZE","posterUrl":"https://dy53q6sor7j4i.cloudfront.net/assets/Mollie-Chen-c567daad5744518dd305c4be06191f1f0e0a9acff107c1377c83f7b16dc0545c.jpg"
+          },
+        {
+            "quote":"Tutotial funciones basicas",
+            "name":"Monet",
+    "duration": null,
+    "previewMp4Url": "https://dy53q6sor7j4i.cloudfront.net/assets/Sergio-Loop-c23a5934f7fb69d03a695d19b90c9e13b076e052cc5493ceb1636b71b8a42a93.mp4",
+    "youtubeVideoId": "uAnRqVGcQKQ",
+    "posterUrl": "https://dy53q6sor7j4i.cloudfront.net/assets/Sergio-8897c52e8fdee04560d64811b96d12d4bd5730a76388a416f6607a2122808b92.jpg"
+  },
+  {
+            "quote":"Tutotial funciones basicas",
+            "name":"Monet",
+    "duration": null,
+    "previewMp4Url": "https://dy53q6sor7j4i.cloudfront.net/assets/Nicole-Sorice-Loop-bb6b4e8956a3a460a6c22ac4b7c6e3daff1813b5ea56b1660e5c921e19ecd3d1.mp4",
+    "youtubeVideoId": "LuCEtluPxvU",
+    "posterUrl": "https://dy53q6sor7j4i.cloudfront.net/assets/Nicole-Sorice-22607acee3f9cee7683a4d7a0639b67375169a5edbb54c594094aee20b5e470a.jpg"
+  },
+  {
+            "quote":"Tutotial funciones basicas",
+            "name":"Monet",
+    "duration": null,
+    "previewMp4Url": "https://dy53q6sor7j4i.cloudfront.net/assets/Ryan-Carl-Loop-45941c671354847e0b307dc92874e024755eb5906e944e798d303f3a4f513070.mp4",
+    "youtubeVideoId": "YLKRaBV1IuM",
+    "posterUrl": "https://dy53q6sor7j4i.cloudfront.net/assets/Ryan-Carl-f2db5c7aa9e933c792e00068e4af33efea1c9b0314ded05299b03a8a50731eab.jpg"
+  },
+  {
+            "quote":"Tutotial funciones basicas",
+            "name":"Monet",
+    "duration": null,
+    "previewMp4Url": "https://dy53q6sor7j4i.cloudfront.net/assets/Shannon-Sellars-Loop-3b4961ba048096db21e5433fb71698ab9dcc52693b7bd3477106606765ddeb68.mp4",
+    "youtubeVideoId": "h_zEur46H-w",
+    "posterUrl": "https://dy53q6sor7j4i.cloudfront.net/assets/Shannon-Sellars-5bc81fc914f780c31efc99921a633de25fb26eb89463eae75278f2e93f95e771.jpg"
+  },
+  {
+            "quote":"Tutotial funciones basicas",
+            "name":"Monet",
+    "duration": null,
+    "previewMp4Url": "https://dy53q6sor7j4i.cloudfront.net/assets/Steven-Zilberberg-Loop-a3062bbcccb76e5ce8a1e36c2ad71a63c05b07cbb7b601d8abbb041ca437ed9e.mp4",
+    "youtubeVideoId": "rsighVcYn0c",
+    "posterUrl": "https://dy53q6sor7j4i.cloudfront.net/assets/Steven-Zilberberg-2738ee21e6981cf8a17a71e2fc01c0c8b1d11a8b88a774fd3965756be6266791.jpg"
+  },
+  {
+            "quote":"Tutotial funciones basicas",
+            "name":"Monet",
+    "duration": null,
+    "previewMp4Url": "https://dy53q6sor7j4i.cloudfront.net/assets/Matt-Cantor-Loop-b56e2b1321a6098a163711e6f3490f1d53c03a880a676c8f44528df98718a9d1.mp4",
+    "youtubeVideoId": "fDKXnOrsCLU",
+    "posterUrl": "https://dy53q6sor7j4i.cloudfront.net/assets/Matt-Cantor-75cb162a96e6954cf83bceb0ebc9669c7674e45abca37019f40f5e4da7343f5e.jpg"
+  },
+  {
+            "quote":"Tutotial funciones basicas",
+            "name":"Monet",
+    "duration": null,
+    "previewMp4Url": "https://dy53q6sor7j4i.cloudfront.net/assets/Craig-Caruso-Loop-540e6519beefbe0628fbb902edcdd16d251c514c6b00da58c7ee715fc75df2ef.mp4",
+    "youtubeVideoId": "rAXcKrvJbYk",
+    "posterUrl": "https://dy53q6sor7j4i.cloudfront.net/assets/Craig-Caruso-d5dcc21fd4c007e729126184a55fed5ae27915a43165ad6b84d7f0585d331829.jpg"
+        }]}'
+      ></div>
+
+
+
+
+
+
+
+  <!--
+      <section class="w-showcase">
+        <div class="container-fluid w-showcase-container">
+          <div class="row">
+            <div class="w-showcase-left">
+              <img
+                class="w-showcase-karma"
+                style="width: 90%;"
+                src="./utilities/img/Monet-laptop.png"
+                alt="Graphic go angle 61fd3294ca57812a05d4ce012e4a15233bf9fc7501e863340fba4b7c4b04fe15"
+              />
+            </div>
+
+            <div class="w-showcase-right">
+              <div class="w-showcase-contents">
+                <h2 class="k-header--large" style="line-height: 90%">
+                  Todo lo que tu empresa necesita, en un solo programa.
+                </h2>
+                <p class="k-paragraph">
+                  Monet te ayuda a gestionar tu negocio desde cualquier lugar, 
+                con herramientas que simplifican tu trabajo.
+                </p>
+                <a
+                  class="k-button--white k-color--blue"
+                  href="https://www.dtr3s.es/"
+                  >Como Funciona</a
+                >
+              </div>
+            </div>
+            <div class="w-showcase-images">
+              <div class="w-showcase-images-image-1"></div>
+              <div class="w-showcase-images-image-2"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+
+
+
+<style>
+[data-react-class="Website.PressCarousel"] img {
+  max-height: 80px;
+  width: auto;
+  height: auto;
+}
+</style>
+
+      <section class="w-press-carousel">
+        <div class="container">
+          <div class="col-xs-12">
+            <div
+  data-react-class="Website.PressCarousel"
+  data-react-props='{
+    "quotes":[
+      {
+        "id":"asoprovac",
+        "quote":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod nisl vel urna feugiat, sit amet luctus ipsum blandit.",
+        "imageUrl":"https://i.postimg.cc/sgtD0fN9/asoprovac-1.png",
+        "link":"#"
+      },
+      {
+        "id":"futsal",
+        "quote":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada.",
+        "imageUrl":"https://i.postimg.cc/NMtGBJYK/futsal-1.png",
+        "link":"#"
+      },
+      {
+        "id":"joma",
+        "quote":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed orci vitae lorem consequat tincidunt non in leo.",
+        "imageUrl":"https://i.postimg.cc/DzLyVkVV/JOMA.png",
+        "link":"#"
+      },
+      {
+        "id":"telju",
+        "quote":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Sed facilisis turpis vitae sapien luctus viverra.",
+        "imageUrl":"https://i.postimg.cc/mDSLDY28/telju-1.png",
+        "link":"#"
+      },
+      {
+        "id":"yetosa",
+        "quote":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Duis at justo at sapien elementum ultricies vitae.",
+        "imageUrl":"https://i.postimg.cc/qqMkCNN0/yetosa-1.png",
+        "link":"#"
+      }
+    ]}'
+></div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <section
+        class="w-under-the-hood k-spacing-padding-top--huge k-spacing-bottom--huge"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2
+                class="k-header--large k-color--marine  k-block"
+              style="line-height: 90%; margin-bottom: 50px;">
+                Qué hace Monet por tu negocio
+              </h2>
+            </div>
+          </div>
+          <div class="row w-under-the-hood-row">
+            <div class="col-sm-4">
+              <div class="w-under-the-hood-icon--cellular"></div>
+              <h3 class="k-header k-color--blue">Gestión integral de tu negocio</h3>
+              <p class="k-paragraph">
+                Monet centraliza pedidos, albaranes, facturas y contabilidad en un solo lugar.
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <div class="w-under-the-hood-icon--battery"></div>
+              <h3 class="k-header k-color--blue">Control contable completo</h3>
+              <p class="k-paragraph">
+                Lleva al día tus cuentas, controla cobros y pagos, 
+                y presenta modelos oficiales sin complicaciones.
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <div class="w-under-the-hood-icon--coverage"></div>
+              <h3 class="k-header k-color--blue">Acceso desde cualquier lugar</h3>
+              <p class="k-paragraph">
+                Trabaja en tu empresa desde la oficina o en remoto, gracias a su acceso online.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="w-under-the-hood-icon--wifi"></div>
+              <h3 class="k-header k-color--blue">Pensado para pymes y autónomos</h3>
+              <p class="k-paragraph">
+                Una solución intuitiva, sin necesidad de conocimientos avanzados de contabilidad.
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <div class="w-under-the-hood-icon--size"></div>
+              <h3 class="k-header k-color--blue">Especialización por sectores</h3>
+              <p class="k-paragraph">
+                Incluye módulos para Textil, Calzado o Control de Presencia, adaptándose a tu negocio.
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <div class="w-under-the-hood-icon--apps"></div>
+              <h3 class="k-header k-color--blue">Automatización y seguridad</h3>
+              <p class="k-paragraph">
+                Automatiza procesos clave, realiza copias de seguridad avanzadas y mantén tus datos protegidos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="k-spacing-bottom--huge">
+        <div class="container">
+          <a
+            class="k-button--link k-spacing-right--large k-spacing-bottom--large k-button--mobile-full-width"
+            href="https://www.dtr3s.es/"
+            >Como Funciona</a
+          ><a
+            class="k-button--blue k-button--mobile-full-width"
+            href="https://www.dtr3s.es/"
+            >Comprar</a
+          >
+        </div>
+      </section>
+    </main>
+ #region -->
+
+<footer class="mainfooter" role="contentinfo">
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>DTR3S</h4>
+          <ul class="list-unstyled">
+            <li><a href="#"></a></li>
+            <li><a href="#">Payment Center</a></li>
+            <li><a href="#">Contact Directory</a></li>
+            <li><a href="#">Forms</a></li>
+            <li><a href="#">News and Updates</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>DTR3S</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Website Tutorial</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Webmaster</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>DTR3S</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Parks and Recreation</a></li>
+            <li><a href="#">Public Works</a></li>
+            <li><a href="#">Police Department</a></li>
+            <li><a href="#">Fire</a></li>
+            <li><a href="#">Mayor and City Council</a></li>
+            <li>
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    	<div class="col-md-3">
+    		<h4>Follow Us</h4>
+            <ul class="social-network social-circle">
+             <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+             <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            </ul>				
+		</div>
+    </div>
+	<div class="row">
+		<div class="col-md-12 copy">
+			<p class="text-center">&copy; Copyright 2018 - Company Name.  All rights reserved.</p>
+		</div>
+	</div>
+
+
+  </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+
